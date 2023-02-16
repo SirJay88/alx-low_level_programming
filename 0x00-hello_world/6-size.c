@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that prints the size of various compture types
- * Return (0)
+ * return 0 (success)
  */
 int main(void)
 {
