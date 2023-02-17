@@ -2,9 +2,8 @@
 #include <unistd.h
 
 /**
- * main - prints exactly and that piece of art is useful
- *
- * Return: Always 0 (success)
+ * main - Entry point
+ * Return: Always 1
  */
 
 int main(void)
