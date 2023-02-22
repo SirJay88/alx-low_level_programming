@@ -1,24 +1,48 @@
 #include "main.h"
 
+#include <stdio.h>
+
+
 /**
- * print_alphabet_x10 - Make alphabet x10 times
- * Return: void
+ * print_to_98 - Prints all natural numbers from n to 98
+ * @n: The number to start printing from
+ * Return: Always 0.
  */
 
-void print_alphabet_x10(void)
+void print_to_98(int n)
 
 {
 
-	char c;
-	int i = 0;
-
-	while (i <= 9)
+	if (n <= 98)
 	{
-	for (c = 'a'; c <= 'z'; c++)
+	for (; n <= 98; n++)
 	{
-	_putchar(c);
+	if (n == 98)
+	{
+	printf("%d", n);
+	printf("\n");
+	break;
 	}
-	_putchar('\n');
-	i++;
+	else
+	{
+	printf("%d, ", n);
+	}
+	}
+	}
+	else
+	{
+	for (; n >= 98; n--)
+	{
+	if (n == 98)
+	{
+	printf("%d", n);
+	printf("\n");
+	break;
+	}
+	else
+	{
+	printf("%d, ", n);
+	}
+	}
 	}
 }
