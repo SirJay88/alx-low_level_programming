@@ -11,7 +11,7 @@ int c;
 
 for (c = 48; c <= 57; c++)
 {
-_putchar(c);
+putchar(c);
 }
-_putchar('\n');
+putchar('\n');
 }
